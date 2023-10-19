@@ -17,21 +17,38 @@ body {
     background-color: #232D3F;
     color: #f8f7f7;
     font-size: 35px;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P';
 }
-
+.subtitle {
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-family: 'Press Start 2P';
+}
+.container {
+    margin-bottom: 24px;
+}
 .secciones {
     text-align: center;
     color:#777ce4;
     font-size: 20px;
     display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction:row;
+    padding: 8px;
+    column-gap: 16px;
+   
+
 }
 
 .parrafo {
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     color:#c2c2cc;
     font-size: 20px;
+
 
 }
 
